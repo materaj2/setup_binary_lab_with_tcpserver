@@ -8,6 +8,7 @@ apt-get install ucspi-tcp
 ```
 #!/bin/bash
 
+## Receive input from network
 read msg 
 echo "Hello "$msg
 ```  
