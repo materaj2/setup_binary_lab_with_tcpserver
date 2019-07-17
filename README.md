@@ -12,6 +12,6 @@ read msg
 echo "Hello "$msg
 ```  
 3. Create socket for receive input with tcpserver  
-`tcpserver -t 50 -RHl0 0.0.0.0 31337 ./test.sh `
-4. Connect with netcat
+`tcpserver -t 50 -RHl0 0.0.0.0 31337 ./test.sh `  
+4. Connect with netcat  
 `echo "testing" | nc localhost 31337`  
